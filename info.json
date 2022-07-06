@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "17b872a12a37f25b077324959f41d53a5ce60749",
+    "author": "Jeroen Ooms <jeroenooms@gmail.com>",
+    "time": "2022-03-08 17:17:16",
+    "files": 4,
+    "merge": false,
+    "message": "Add wrapper for search api\n"
+  },
+  "repo": "https://github.com/ropensci/universe",
+  "pkg": "universe"
+}
