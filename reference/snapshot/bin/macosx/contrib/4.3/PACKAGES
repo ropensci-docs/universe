@@ -1,0 +1,170 @@
+Package: RAppArmor
+Version: 3.2.4
+License: Apache License 2.0
+OS_type: unix
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-08 07:42:34 UTC; unix
+MD5sum: 9d11b26548c793d49f86f91012782096
+Depends: unix (>= 1.4)
+Suggests: testthat, R.rsp
+
+Package: V8
+Version: 4.4.2
+License: MIT + file LICENSE
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-24 11:12:31 UTC; unix
+MD5sum: 848688df0e64674b5fff1da51a0aac7e
+LinkingTo: Rcpp
+Imports: Rcpp (>= 0.12.12), jsonlite (>= 1.0), curl (>= 1.0), utils
+Suggests: testthat, knitr, rmarkdown
+
+Package: badgen
+Version: 1.0.0
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.3.2; ; 2024-02-22 07:34:19 UTC; unix
+MD5sum: b79fc9919ea110fd9f7988132b0cb73c
+Imports: jsonlite, V8
+Suggests: rsvg
+
+Package: base64
+Version: 2.0.1
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.3.2; ; 2024-03-01 05:42:40 UTC; unix
+MD5sum: 9211b4781ab6b2d4721dda0c1eb023b7
+Imports: openssl
+
+Package: bcrypt
+Version: 1.2
+License: BSD_2_clause + file LICENSE
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-08 07:42:18 UTC; unix
+MD5sum: 1efbad093c5be03a8ed3f3d7b67388a9
+Imports: openssl
+Suggests: spelling
+
+Package: brotli
+Version: 1.3.0
+License: MIT + file LICENSE
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-08 07:46:13 UTC; unix
+MD5sum: f4c1b5ecb6ba9a529e9ea393d52ca594
+Suggests: spelling, knitr, R.rsp, microbenchmark, rmarkdown, ggplot2
+
+Package: curl
+Version: 5.2.1
+License: MIT + file LICENSE
+NeedsCompilation: yes
+Built: R 4.3.3; x86_64-apple-darwin20; 2024-03-02 22:34:56 UTC; unix
+MD5sum: edc4a9620da4fdc75a99e03be5f4910b
+Depends: R (>= 3.0.0)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+
+Package: gpg
+Version: 1.2.9
+License: MIT + file LICENSE
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-08 07:42:46 UTC; unix
+MD5sum: e89046a5961df44fa6db1206ced4eec0
+Imports: curl, askpass
+Suggests: knitr, rmarkdown
+
+Package: js
+Version: 1.2
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.3.2; ; 2024-02-16 05:34:14 UTC; unix
+MD5sum: dc2f7a6d37a7f2e565a85557d5383304
+Imports: V8 (>= 0.5)
+Suggests: knitr, rmarkdown
+
+Package: jsonlite
+Version: 1.8.8
+License: MIT + file LICENSE
+NeedsCompilation: yes
+Built: R 4.3.3; x86_64-apple-darwin20; 2024-03-02 22:34:56 UTC; unix
+MD5sum: de38433f5e22e251fecc08e4602d3410
+Depends: methods
+Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
+
+Package: maketools
+Version: 1.3.0
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.3.2; ; 2024-02-25 22:22:48 UTC; unix
+MD5sum: 5ecca54c8b9d49c05ee64670206f77a5
+Imports: sys (>= 3.1)
+Suggests: curl, knitr, rmarkdown, testthat
+
+Package: mongolite
+Version: 2.7.3
+License: Apache License 2.0
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-08 08:13:27 UTC; unix
+MD5sum: 6c2f00e662d21f59b49c0e333cfac005
+Imports: jsonlite (>= 1.4), openssl (>= 1.0), mime
+Suggests: spelling, nycflights13, ggplot2
+
+Package: openssl
+Version: 2.1.1
+License: MIT + file LICENSE
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-22 15:25:50 UTC; unix
+MD5sum: 40711ad522775639b54d9bca9a57b0da
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+
+Package: protolite
+Version: 2.3.0
+License: MIT + file LICENSE
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-08 07:46:10 UTC; unix
+MD5sum: 97c0114b21e6ac18907c03d4c0b7e961
+LinkingTo: Rcpp
+Imports: Rcpp (>= 0.12.12), jsonlite
+Suggests: spelling, curl, testthat, sf
+
+Package: rjade
+Version: 0.1.1
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.3.3; ; 2024-03-02 05:55:17 UTC; unix
+MD5sum: 2632c0b38cafdc92e45bc305b94d5413
+Imports: V8 (>= 0.5)
+Suggests: knitr, rmarkdown
+
+Package: sys
+Version: 3.4.2
+License: MIT + file LICENSE
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-08 07:42:54 UTC; unix
+MD5sum: 9e4569171a3667dd1d4569601c1c4162
+Suggests: unix (>= 1.4), spelling, testthat
+
+Package: unix
+Version: 1.5.7
+License: MIT + file LICENSE
+OS_type: unix
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-22 13:25:47 UTC; unix
+MD5sum: c9264d73a2f626d4fa6b915c89fe3e65
+Suggests: testthat
+
+Package: webp
+Version: 1.2.0
+License: MIT + file LICENSE
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-08 07:42:21 UTC; unix
+MD5sum: 1d7e37f316bb0ac76778fcd4c03c4cb4
+Suggests: jpeg, png
+
+Package: webutils
+Version: 1.2.0
+License: MIT + file LICENSE
+NeedsCompilation: yes
+Built: R 4.3.2; x86_64-apple-darwin20; 2024-02-24 11:22:28 UTC; unix
+MD5sum: a918f27cad4228effcb7f460d9e19a58
+Imports: curl (>= 2.5), jsonlite
+Suggests: httpuv, testthat
+

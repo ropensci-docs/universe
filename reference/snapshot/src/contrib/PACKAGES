@@ -1,0 +1,151 @@
+Package: RAppArmor
+Version: 3.2.4
+License: Apache License 2.0
+OS_type: unix
+NeedsCompilation: yes
+MD5sum: 100ae8d4c29048fabc86beb800e4392e
+Depends: unix (>= 1.4)
+Suggests: testthat, R.rsp
+
+Package: V8
+Version: 4.4.2
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: b04b4aea7b03186398e40d2dedb54e26
+LinkingTo: Rcpp
+Imports: Rcpp (>= 0.12.12), jsonlite (>= 1.0), curl (>= 1.0), utils
+Suggests: testthat, knitr, rmarkdown
+
+Package: badgen
+Version: 1.0.0
+License: MIT + file LICENSE
+NeedsCompilation: no
+MD5sum: 3a4fa412f1e47c8a1b7dd85c42e4d7fe
+Imports: jsonlite, V8
+Suggests: rsvg
+
+Package: base64
+Version: 2.0.1
+License: MIT + file LICENSE
+NeedsCompilation: no
+MD5sum: d57fa9afcb3df96da1591145c5cbcb5a
+Imports: openssl
+
+Package: bcrypt
+Version: 1.2
+License: BSD_2_clause + file LICENSE
+NeedsCompilation: yes
+MD5sum: 08c8ce5ed275859608d108d2a6f926e7
+Imports: openssl
+Suggests: spelling
+
+Package: brotli
+Version: 1.3.0
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: a0bdeccf5778816bf5218c153071f266
+Suggests: spelling, knitr, R.rsp, microbenchmark, rmarkdown, ggplot2
+
+Package: curl
+Version: 5.2.1
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: bfe3a3a747607aee4dcdd3991f003044
+Depends: R (>= 3.0.0)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+
+Package: gpg
+Version: 1.2.9
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: a355ad6d28706fa4bfe5e8289ed26f07
+Imports: curl, askpass
+Suggests: knitr, rmarkdown
+
+Package: js
+Version: 1.2
+License: MIT + file LICENSE
+NeedsCompilation: no
+MD5sum: 3f839a0c7d924d6e090cae3fb4854e89
+Imports: V8 (>= 0.5)
+Suggests: knitr, rmarkdown
+
+Package: jsonlite
+Version: 1.8.8
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: 49281855b4ce6c84bd2826ba2cc4d865
+Depends: methods
+Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
+
+Package: maketools
+Version: 1.3.0
+License: MIT + file LICENSE
+NeedsCompilation: no
+MD5sum: 8e2458c4576fb6f1856d4de4fd098264
+Imports: sys (>= 3.1)
+Suggests: curl, knitr, rmarkdown, testthat
+
+Package: mongolite
+Version: 2.7.3
+License: Apache License 2.0
+NeedsCompilation: yes
+MD5sum: e16be899afe04baa57a532f63b8ce94a
+Imports: jsonlite (>= 1.4), openssl (>= 1.0), mime
+Suggests: spelling, nycflights13, ggplot2
+
+Package: openssl
+Version: 2.1.1
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: 257aef9a827bef61a4214f4ab4397d56
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+
+Package: protolite
+Version: 2.3.0
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: 3cf19754e05a07949c1274f0bb5940f9
+LinkingTo: Rcpp
+Imports: Rcpp (>= 0.12.12), jsonlite
+Suggests: spelling, curl, testthat, sf
+
+Package: rjade
+Version: 0.1.1
+License: MIT + file LICENSE
+NeedsCompilation: no
+MD5sum: 987632496b1067c132313c6b929064be
+Imports: V8 (>= 0.5)
+Suggests: knitr, rmarkdown
+
+Package: sys
+Version: 3.4.2
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: b72fec3679e031591fcaa6988c1ed977
+Suggests: unix (>= 1.4), spelling, testthat
+
+Package: unix
+Version: 1.5.7
+License: MIT + file LICENSE
+OS_type: unix
+NeedsCompilation: yes
+MD5sum: 114adb6363bcd808a08f9ac5dbd1a5d2
+Suggests: testthat
+
+Package: webp
+Version: 1.2.0
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: 2b82a2531f6b78d6191f59ab917c56a4
+Suggests: jpeg, png
+
+Package: webutils
+Version: 1.2.0
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: 1974bed63dcfc8d27ed08a86153b955f
+Imports: curl (>= 2.5), jsonlite
+Suggests: httpuv, testthat
+

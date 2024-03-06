@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "031e34267e9a4f25a59e30ccbbd40765e4af04c5",
+    "author": "Jeroen Ooms <jeroenooms@gmail.com>",
+    "time": "2023-02-10 14:17:27",
+    "files": 1,
+    "merge": false,
+    "message": "Tweaks\n"
+  },
+  "repo": "https://github.com/ropensci/universe",
+  "pkg": "universe"
+}
