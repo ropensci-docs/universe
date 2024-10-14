@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "2e4fb6a39fb092d931c3eb86c2724d425570a13c",
+    "author": "Maëlle Salmon <maelle.salmon@yahoo.se>",
+    "time": "2024-10-14 14:36:22",
+    "files": 1,
+    "merge": false,
+    "message": "fix: declare dep on {fs}\n"
+  },
+  "repo": "https://github.com/ropensci/universe",
+  "pkg": "universe"
+}
