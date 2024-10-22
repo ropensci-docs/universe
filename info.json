@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "3f0b640ef933674c249504f399fc64a93560031c",
+    "author": "Maëlle Salmon <maelle.salmon@yahoo.se>",
+    "time": "2024-10-22 14:08:12",
+    "files": 2,
+    "merge": false,
+    "message": "docs: fix code coverage badge\n"
+  },
+  "repo": "https://github.com/ropensci/universe",
+  "pkg": "universe"
+}

@@ -1,0 +1,9 @@
+pandoc: 3.2.1
+pkgdown: 2.1.0
+pkgdown_sha: ~
+articles:
+  universe: universe.html
+last_built: 2024-10-22T14:14Z
+urls:
+  reference: https://docs.ropensci.org/universe/reference
+  article: https://docs.ropensci.org/universe/articles
