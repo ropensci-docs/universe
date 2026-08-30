@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "5174f6f780ebb36c7bb1f1786079170d3db178e6",
+    "author": "Maëlle Salmon <maelle.salmon@yahoo.se>",
+    "time": "2026-02-02T14:54:53Z",
+    "files": 1,
+    "merge": false,
+    "message": "chore: use withr since we already import it\n"
+  },
+  "repo": "https://github.com/ropensci/universe",
+  "pkg": "universe",
+  "time": "2026-08-30T07:22:29Z"
+}
